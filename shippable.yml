@@ -8,7 +8,7 @@ env:
   global:
     - RDS_HOSTNAME=127.0.0.1 RDS_USERNAME=shippable RDS_PASSWORD="" RDS_DB_NAME=test RDS_PORT=3306
     - AWSAccessKeyId=AKIAIJSYFGMZPF5GS5BA
-    - secure: 0oBuDMdz+nl3hGkVOQPp6pUMgCJps7Y1RLfu8yfBrppUtWxlZmZBn1wLuOFtYVD7hOAyDlfbqmwMe6OiROKd1jdZa9Uy/c2Up2JG0HCmC5brOM/zZ6fZysZP8YV5K2z3cy0g6gPMrTwzKrL296fkLR3gPgh4ZyV/vNUYIuVoyACfqrSUEBflJFVzTemxEt0ET9Fkp/ugHIqpCM6RJEs1CloovWpPkq7wu69nc322fKYDLmHovS6jbXUEUOPI+4VT/62iO1mkmoN/U1UPf6QkEe0tdZysDP9lBHWHcEVnCbVGUcfCqWmryg8049nop/nDLt11AKGbNIl+f0lLldeh2g==
+    - AWSSecretKey=CzzgVkikb52PP3Mc0SSwE6cBUu3YziBKXgluXct9
 
 before_install:
   - pip install awsebcli
