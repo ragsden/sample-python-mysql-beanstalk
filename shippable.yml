@@ -11,7 +11,7 @@ env:
     - AWSSecretKey=CzzgVkikb52PP3Mc0SSwE6cBUu3YziBKXgluXct9
 
 before_install:
-  - pip install awsebcli
+  - SUDO=$(which sudo) && $SUDO pip install awsebcli
 
 install:
   - pip install -r requirements.txt
