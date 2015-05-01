@@ -1,8 +1,8 @@
 branch-defaults:
   master:
-    environment: sample-python-env
+    environment: ragphp11-env
 global:
-  application_name: sample-python
-  default_region: us-west-2
+  application_name: ragphp11
+  default_region: us-east-1
   profile: eb-cli
   sc: git
